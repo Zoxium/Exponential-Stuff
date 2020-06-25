@@ -1,0 +1,20 @@
+@font-face {
+    src: url("Fonts/cmunss.ttf");
+    font-family: CMU Sans
+}
+
+body {
+    font-family: CMU Sans;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#formuloAmount {
+    font-size: 40px;
+}
+
