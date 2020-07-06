@@ -5,16 +5,41 @@
 
 body {
     font-family: CMU Sans;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    letter-spacing: 1px;
+    background-color: black;
 }
 
 p {
     text-align: center;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 5px;
+    color: lightgrey;
+}
+#exponts {
+    color: #f25c5c;
+    margin: 1.5%
 }
 
-#formuloAmount {
-    font-size: 40px;
+#expontTitle {
+    font-size: 25px;
 }
 
+#expontMultperSec {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.generators.genButtons {
+    color: white;
+}
+
+#expontAmount {
+    color: #f25c5c;
+    font-size: 17.5px;
+    text-shadow: #f25c5c 0px 0px 10px;
+}
