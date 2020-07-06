@@ -1,4 +1,4 @@
-# Formulaic Expressions
+# Exponential <sup>Stuff</sup>
 
 This is <b>NOT</b> finished. You will see bugs.
 
