@@ -1,4 +1,4 @@
-# Exponential <sup>Stuff</sup>
+# Exponential<sup>Stuff</sup>
 
 This is <b>NOT</b> finished. You will see bugs.
 
