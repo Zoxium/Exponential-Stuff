@@ -2,21 +2,32 @@
 
 <html>
     <head>
-        <title>Formulaic Expressions</title>
+        <title>Exponential Stuff</title>
         <link rel="stylesheet" type="text/css" href="UI/looks.css">
+        <link rel="icon" type="image/png" href="UI/Pictures n' stuff/ExponentialStuffIcon.png"/>
     </head>
 
     <body>
-        <p>You have <span id="formuloAmount">1</span> formulo.</p>
+        <div id="exponts">
+            <span id="expontTitle">Exponts</span>
+            <br>
+            <span id="expontAmount">1</span> (x<span id="expontMultperSec">1.00</span>/s)
+        </div>
 
-        <table>
-            <tr style="font-family: CMU Sans; font-size: 17.5px; display: table-row;">
-                <td id="gen1Mult" style="width: 30%; position: relative">First Generator x1.0</td>
-                <td><span id="gen1Amnt">0.0</span></td>
-            </tr>
-        </table>
-        <script src="JS/Core/main.js"></script>
+        <div class="generators" style="margin: 1.5%;">
+            <span id="generatorsTitle" style="color: #ffb54d; font-size: 25px;">Generators</span>
+
+            <div class="gen1" style="font-size: 16px; color: white;">
+                <span id="gen1Title" style="color: #ffb54d;">Generator 1</span>
+                <br>
+                <span id="gen1Amt" style="color: #ffb54d;">0.00</span> <span id="gen1AmtperSec" style="color: #3ae871; font-weight: bold;">+0.00%/s</span> <span id="gen1Pow" style="color:#f4ff5e; font-weight: bold;">^1.00<span></span>
+                <br>
+                <button onclick="buyGen(1)" style="border-width: 1px; border-radius: 3px; background-color: black; color: white; border-color: white; border-style: solid;">Cost: <span id="gen1Cost">1</span> Expont</button>
+            </div>
+        </div>
+
         <script src="JS/Libraries/OmegaNum.js"></script>
+        
+        <script src="JS/Core/main.js"></script>
     </body>
-
 </html>
